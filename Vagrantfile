@@ -45,6 +45,7 @@ SH
       git clone https://github.com/bert7/interview
       cd interview
       npm install
+      npm install -g mocha
 SH
     # startup mongodb on vm start
     vm_interview.vm.provision "shell", inline: <<SH
